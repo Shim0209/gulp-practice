@@ -4,7 +4,9 @@
   "description": "Gulp 학습",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Shim0209/gulp-practice/issues"
   },
-  "homepage": "https://github.com/Shim0209/gulp-practice#readme"
+  "homepage": "https://github.com/Shim0209/gulp-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/register": "^7.13.16",
+    "gulp": "^4.0.2"
+  }
 }
