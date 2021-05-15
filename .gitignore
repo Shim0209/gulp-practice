@@ -39,3 +39,8 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
+
+# next.js build output
+.next
+build/
+node_modules
